@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>win11_subtitle_extractor</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UIAutomationClient">
+    <HintPath>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\UIAutomationClient.dll</HintPath>
+  </Reference>
+  <Reference Include="UIAutomationTypes">
+    <HintPath>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\UIAutomationTypes.dll</HintPath>
+  </Reference>
+  <Reference Include="UIAutomationProvider">
+    <HintPath>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.7\UIAutomationProvider.dll</HintPath>
+  </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
